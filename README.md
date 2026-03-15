@@ -33,7 +33,7 @@ composer install
 cp .env.example .env
 php artisan key:generate
 php artisan migrate
-php artisan db:seed
+php artisan db:seed/php artisan migrate:fresh --seed
 php artisan serve
 ```
 
@@ -46,7 +46,6 @@ php artisan serve
 ```bash
 cd react-frontend
 npm install
-cp .env.example .env
 # Add your OpenWeatherMap API key to .env
 npm start
 ```
