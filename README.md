@@ -66,7 +66,7 @@ npm start
 
 | Method | Endpoint | Description | Auth |
 |---|---|---|---|
-| POST | /api/login | Login | No |
+| POST | /api/login | Login | Yes |
 | POST | /api/logout | Logout | Yes |
 | GET | /api/user | Get current user | Yes |
 | GET | /api/dashboard/overview | Dashboard data | Yes |
